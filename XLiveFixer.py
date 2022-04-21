@@ -282,9 +282,7 @@ class XLiveImportFix:
                 if not name:
                     continue
 
-                print(self.xlive_dict[name[6:]])
-
-                #idaapi.set_name(ea, name, idaapi.SN_NOWARN)
+                idaapi.set_name(ea, self.xlive_dict[name[6:]], idaapi.SN_NOWARN)
 
         print("Done!")
 
