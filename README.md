@@ -1,2 +1,2 @@
 # XLiveIDAScript
-Names all imports/exports in all xlive modules, this was started in 2008 and never finished until now
+IDAPython script to rename all ordinal imports from Game For Windows Live's 'XLive.dll', upgraded to Python3.
